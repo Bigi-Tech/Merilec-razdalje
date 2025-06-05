@@ -11,4 +11,5 @@ Deluje na principu HC-SR04 ultrazvočnega senzorja, ki pošilja ultrazvočne val
  -Upor 220e
 
 # Slika vezave
-![image](https://github.com/user-attachments/assets/5d5e51b5-ebf7-494e-ab57-54e2d7325957)
+![image](https://github.com/user-attachments/assets/0b1e48a8-dce1-4598-853d-a25fab3468f7)
+
