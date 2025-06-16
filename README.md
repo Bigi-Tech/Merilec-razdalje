@@ -40,17 +40,25 @@ HC-SR04 odstopa do 5 cm, kar je slabše od traku (±1 mm), zlasti do 50 cm (10�
 Temperatura 27,1 °C poveča hitrost zvoka, a koda ne kompenzira, kar povzroča previsoke napake meritev (npr. 27 cm pri 30 cm). Širok stožec (15°) moti pri majhnih razdaljah.
 # Zaključek:
 Natančnost ±5 cm (25 % relativna napaka), najboljša pri 180–200 cm (2 %), slabša pod 50 cm (>10 %). Brez kompenzacije je omejena pri kratkih razdaljah.
-# Predlagane izboljšave
-Temperaturna kompenzacija: Dodatek temperaturnega senzorja in prilagoditev hitrosti zvoka.
-Povprečenje meritev: Uporaba povprečja 5 meritev za stabilnost.
-Optimizacija LCD: Nadomestiev lcd.clear() z setCursor() in presledki za manj utripanja.
-Filtriranje: Dodek median filtra za odstranitev šuma.
-Kalibracija: Možnost vnosa referenčne razdalje prek serijskega vmesnika.
-Strojna oprema: Dodatek omejevalnika stožca.
-Alternativa: Uporaba laserskega senzorja za večjo natančnost.
-Funkcije: Dodatek Bluetooth modula in prikaz temperature.
+# Predlagane izboljšave:
+# Temperaturna kompenzacija: 
+Dodatek temperaturnega senzorja in prilagoditev hitrosti zvoka.
+# Povprečenje meritev: 
+Uporaba povprečja 5 meritev za stabilnost.
+# Optimizacija LCD: 
+Nadomestiev lcd.clear() z setCursor() in presledki za manj utripanja.
+# Filtriranje: 
+Dodek median filtra za odstranitev šuma.
+# Kalibracija:
+Možnost vnosa referenčne razdalje prek serijskega vmesnika.
+# Strojna oprema:
+Dodatek omejevalnika stožca.
+# Alternativa:
+Uporaba laserskega senzorja za večjo natančnost.
+# Funkcije:
+Dodatek Bluetooth modula in prikaz temperature.
 
-Zaključek: 
+# Zaključek: 
 Naprava je uporabna za osnovne aplikacije z natančnostjo ±5–10 mm v idealnih pogojih. Z temperaturno kompenzacijo, povprečenjem in kalibracijo je mogoče doseči ±3–5 mm. Nadgradnja na laserski senzor je priporočljiva za višjo natančnost.
 Izračunov komponent vezja nimava, saj ni jih nisva potrebovala.
 
