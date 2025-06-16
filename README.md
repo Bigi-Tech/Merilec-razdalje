@@ -17,4 +17,7 @@ Deluje na principu HC-SR04 ultrazvočnega senzorja, ki pošilja ultrazvočne val
 https://drive.google.com/file/d/1RGLjEy5seoJhz0hzi06T_8WbxZ_zJ9CN/view?usp=drive_link
 
 # Končne slike izdelka
-![PXL_20250616_054105738 MP](https://github.com/user-attachments/assets/c9987ee4-c316-4bc3-8f36-41bcd84686e4)
+![PXL_20250616_054105738 MP](https://github.com/user-attachments/assets/cb8bddcf-9a32-4e77-9a36-635dc3fffa8b)
+![PXL_20250616_054108971](https://github.com/user-attachments/assets/0c2fdd99-f647-480a-a84a-6aaf1151826d)
+![PXL_20250616_054111631](https://github.com/user-attachments/assets/75d52141-531c-48fa-a2f8-f2b33621c5a0)
+![PXL_20250616_054115715](https://github.com/user-attachments/assets/88f13c3e-9acd-4179-8ee0-e00bfcc61448)
