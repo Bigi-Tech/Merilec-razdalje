@@ -24,17 +24,23 @@ https://drive.google.com/file/d/1RGLjEy5seoJhz0hzi06T_8WbxZ_zJ9CN/view?usp=drive
 
 # Komentar na delovanje
 Merilna naprava razdalje uporablja ultrazvočni senzor HC-SR04, povezan z Arduinom Uno R3, in LCD zaslon za izpis razdalje v centimetrih. Deluje tako, da pošlje ultrazvočni impulz in izračuna razdaljo z osveževanjem vsakih 100 ms.
-Prednosti: Enostavna zasnova, prenosno 3D-tiskano ohišje, podpora za baterijsko/USB napajanje, primerna za izobraževalne namene.
-Omejitve: Brez temperaturne kompenzacije, utripanje zaslona zaradi lcd.clear(), brez povprečenja/filtriranja, omejen razpon (2 cm–2 m) in slaba delovanja na mehkih površinah.
+# Prednosti: 
+Enostavna zasnova, prenosno 3D-tiskano ohišje, podpora za baterijsko/USB napajanje, primerna za izobraževalne namene.
+# Omejitve: 
+Brez temperaturne kompenzacije, utripanje zaslona zaradi lcd.clear(), brez povprečenja/filtriranja, omejen razpon (2 cm–2 m) in slaba delovanja na mehkih površinah.
 Naprava je zanesljiva za osnovne aplikacije v zaprtih prostorih.
-Ocena natančnosti delovanja
+# Ocena natančnosti delovanja
 Umerjanje 16.6.2025 pri 27,1 °C z merilnim trakom "Mater 3 m" (±1 mm) kaže:
 Specifikacije HC-SR04: Razpon 2–400 cm, natančnost ±3 mm.
-Analiza: Največja absolutna napaka 5 cm (pri 10 cm in 200 cm), največja relativna napaka 25 % (pri 10 cm), povprečna absolutna napaka ~3,3 cm, povprečna relativna napaka ~8,5 %. Napake so večje pri krajših razdaljah (do 25 %) in manjše pri daljših (2 % pri 180–200 cm).
-Primerjava: HC-SR04 odstopa do 5 cm, kar je slabše od traku (±1 mm), zlasti do 50 cm (10–25 % napaka).
-Vpliv okolja: Temperatura 27,1 °C poveča hitrost zvoka, a koda ne kompenzira, kar povzroča previsoke napake meritev (npr. 27 cm pri 30 cm). Širok stožec (15°) moti pri majhnih razdaljah.
-Zaključek: Natančnost ±5 cm (25 % relativna napaka), najboljša pri 180–200 cm (2 %), slabša pod 50 cm (>10 %). Brez kompenzacije je omejena pri kratkih razdaljah.
-Predlagane izboljšave
+# Analiza: 
+Največja absolutna napaka 5 cm (pri 10 cm in 200 cm), največja relativna napaka 25 % (pri 10 cm), povprečna absolutna napaka ~3,3 cm, povprečna relativna napaka ~8,5 %. Napake so večje pri krajših razdaljah (do 25 %) in manjše pri daljših (2 % pri 180–200 cm).
+# Primerjava:
+HC-SR04 odstopa do 5 cm, kar je slabše od traku (±1 mm), zlasti do 50 cm (10–25 % napaka).
+# Vpliv okolja:
+Temperatura 27,1 °C poveča hitrost zvoka, a koda ne kompenzira, kar povzroča previsoke napake meritev (npr. 27 cm pri 30 cm). Širok stožec (15°) moti pri majhnih razdaljah.
+# Zaključek:
+Natančnost ±5 cm (25 % relativna napaka), najboljša pri 180–200 cm (2 %), slabša pod 50 cm (>10 %). Brez kompenzacije je omejena pri kratkih razdaljah.
+# Predlagane izboljšave
 Temperaturna kompenzacija: Dodatek temperaturnega senzorja in prilagoditev hitrosti zvoka.
 Povprečenje meritev: Uporaba povprečja 5 meritev za stabilnost.
 Optimizacija LCD: Nadomestiev lcd.clear() z setCursor() in presledki za manj utripanja.
@@ -44,7 +50,7 @@ Strojna oprema: Dodatek omejevalnika stožca.
 Alternativa: Uporaba laserskega senzorja za večjo natančnost.
 Funkcije: Dodatek Bluetooth modula in prikaz temperature.
 
-Zaključek
+Zaključek: 
 Naprava je uporabna za osnovne aplikacije z natančnostjo ±5–10 mm v idealnih pogojih. Z temperaturno kompenzacijo, povprečenjem in kalibracijo je mogoče doseči ±3–5 mm. Nadgradnja na laserski senzor je priporočljiva za višjo natančnost.
 Izračunov komponent vezja nimava, saj ni jih nisva potrebovala.
 
