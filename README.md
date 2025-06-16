@@ -13,3 +13,5 @@ Deluje na principu HC-SR04 ultrazvočnega senzorja, ki pošilja ultrazvočne val
 # Slika vezave
 ![image](https://github.com/user-attachments/assets/0b1e48a8-dce1-4598-853d-a25fab3468f7)
 
+# Posnetek delovanja
+https://drive.google.com/file/d/1RGLjEy5seoJhz0hzi06T_8WbxZ_zJ9CN/view?usp=drive_link
